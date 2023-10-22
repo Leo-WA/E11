@@ -1,15 +1,22 @@
-/* Adicione estilos personalizados aqui */
-/* Por exemplo, você pode personalizar cores, fontes e outros estilos */
-
 body {
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
+}
+
+.carousel-inner img {
+    max-height: 400px;
+    object-fit: cover;
 }
 
 .card {
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    max-height: 300px; 
+    object-fit: cover;
 }
 
 .card-title {
